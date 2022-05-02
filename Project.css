@@ -1,0 +1,93 @@
+
+.barbox li a
+{
+    display: block;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 25px 20px;
+	font-size: 13px;
+	color: brown;
+	letter-spacing: 10px;
+}
+
+.text h1{color: peru;
+	text-align: center;
+	font-size: 90px;
+	font-weight: 300;
+	
+}
+.text p{
+	text-align: center;
+	color: brown;
+	letter-spacing: 5px;
+
+}
+.VisitBar{
+	display:inline-block;
+	background-color:grey;
+	color:white;
+	text-align: center;
+	border-radius: 100px;
+	padding: 15px 25px;
+}
+body
+   {
+	margin: 0;
+	font-family: "poppins", sans-serif;
+   	background-image:url("https://codd.cs.gsu.edu/~adhar2/WP/PW/PW04/real.jpg ");
+	background-blend-mode: multiply;
+	background-size: cover;
+   }
+   
+ *{
+	 box-sizing: border-box;
+ }
+	
+.barbox ul
+{
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: lightcoral;
+}
+.barbox ul li
+{ 
+    display: inline-block;
+}
+
+.anima{
+	background-color: lightblue;
+	opacity: 0.7;
+	height: 20%;
+	width: 40%;
+	 margin: auto;
+	 border: 10px outset gray;
+	 text-align: center;
+	 
+	 position: relative;
+	 animation: sum;
+	 animation-duration: 10s;
+	 animation-iteration-count: 10;
+   
+	}
+      
+	.iiv{
+		background-color: lightblue;
+		opacity: 0.7;
+		height: 20%;
+		width: 40%;
+		 margin: auto;
+		 border: 3px outset gray;
+		 text-align: center;
+		  }
+		  
+
+
+
+
+
+
+

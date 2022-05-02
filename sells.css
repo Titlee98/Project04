@@ -1,0 +1,57 @@
+
+body {
+    background-color: lemonchiffon;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cards {
+    background-color: lightcoral;
+    height: 600px;
+    width: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px; 
+}
+img {
+    width: 100%;
+    height: 40%;
+    border-radius: 70%;
+}
+ 
+.card-game {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+ .first{
+    margin: 0;
+    height: 550px;
+    width: 100%;
+	font-family: "poppins", sans-serif;
+   	background-image:url("https://codd.cs.gsu.edu/~adhar2/WP/PW/PW04/real.jpg ");
+	background-blend-mode: multiply;
+
+}
+
+.text h1{color: peru;
+	text-align: center;
+	font-size: 90px;
+	font-weight: 300;
+	
+}
+.text p{
+	text-align: center;
+	color: brown;
+	letter-spacing: 5px;
+
+}
+
+
+
+  
+
+  
